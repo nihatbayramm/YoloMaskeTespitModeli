@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=70&section=header&color=0:0A2540,100:2F80ED&text=%F0%9F%98%B7+YOLO+Generations+Benchmark+-+YOLOv8n+%E2%80%A2+YOLO10n+%E2%80%A2+YOLO11n+%7C+Mask+Detection&fontColor=ffffff&fontSize=18&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=80&section=header&color=0:0A2540,50:0F4C81,100:2F80ED&text=%F0%9F%98%B7+YOLO+Nesil+Benchmark+-+YOLOv8n+%E2%80%A2+YOLO10n+%E2%80%A2+YOLO11n+%7C+Maske+Tespiti&fontColor=42FFF0&fontSize=20&animation=neon" />
 </p>
+
 
 
 
