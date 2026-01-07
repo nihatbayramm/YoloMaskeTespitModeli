@@ -134,42 +134,54 @@ NMS gerektirmeyen yapısıyla en düşük parametre sayısı ve yüksek hız.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <p align="left">
-  <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=2200&pause=900&color=2F80ED&center=false&vCenter=true&width=360&lines=⚙️+Setup+%26+Training" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=2200&pause=900&color=2F80ED&center=false&vCenter=true&width=440&lines=⚙️+Kurulum+%26+Eğitim;🚀+Birleşik+Benchmark+Pipeline" />
 </p>
 
-### 1️⃣ Gerekli Kütüphaneler
+```bash
+╔════════════════════════════════════════════════════════════╗
+║ ⚙️  Kurulum · 🚀 Eğitim · 🔍 Tespit (Pro Sürüm)            ║
+╟────────────────────────────────────────────────────────────╢
+║  🎯 Epoch: 15     🖼️ Görüntü Boyutu: 320×320               ║
+║  ⚡ Donanım: T4 GPU   🧩 Çerçeve: Ultralytics               ║
+╚════════════════════════════════════════════════════════════╝
 
-```
+
+📦 Gerekli Kütüphanelerin Kurulumu
+────────────────────────────────────────────────────────────
 pip install ultralytics opencv-python
-```
-### 2️⃣ Model Eğitimi (CLI)
 
-# YOLOv8n
+
+🚀 Model Eğitimi (Tüm Modeller Aynı Koşullarda)
+────────────────────────────────────────────────────────────
+# 🟦 YOLOv8n — Dengeli doğruluk
 yolo train model=yolov8n.pt data=mask_dataset.yaml epochs=15 imgsz=320
 
-# YOLO10n
+# 🟨 YOLO10n — NMS-Free · Hafif · Edge cihazlar için uygun
 yolo train model=yolo10n.pt data=mask_dataset.yaml epochs=15 imgsz=320
 
-# YOLO11n
+# 🟥 YOLO11n — Yeni nesil · Küçük nesne tespitinde güçlü
 yolo train model=yolo11n.pt data=mask_dataset.yaml epochs=15 imgsz=320
 
 
-### 3️⃣ Tespit Yapma (Python)
-
-```
+🔍 Tespit Çalıştırma (Python API — Önerilen Yöntem)
+────────────────────────────────────────────────────────────
 from ultralytics import YOLO
 
-# En iyi modeli yükleyin (örnek: YOLO11n)
+# Eğitilmiş en iyi modeli yükle
 model = YOLO("runs/detect/mask_train_yolo11/weights/best.pt")
 
-# Tek görüntü testi
+# Tek görüntü üzerinde tespit çalıştır
 results = model("test_image.jpg")[0]
-results.show()          # Görüntüyü ekranda göster
-# results.save("sonuc.jpg")   # Dosyaya kaydetmek için
+
+# Sonucu ekranda göster
+results.show()
+
+# Sonucu dosyaya kaydetmek istersen:
+# results.save("sonuc.jpg")
+╚════════════════════════════════════════════════════════════╝
+
 
 ```
-
-
 
 
 ### 🏆 Sonuç Karşılaştırması
