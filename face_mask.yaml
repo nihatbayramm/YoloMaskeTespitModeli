@@ -1,0 +1,6 @@
+
+path: /content/datasets/mask_data
+train: images/train
+val: images/val
+nc: 2
+names: ['mask', 'no_mask']
