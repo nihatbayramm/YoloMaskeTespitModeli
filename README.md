@@ -36,6 +36,7 @@ En güncel mimari sayesinde küçük nesneleri (maske) daha iyi yakalar.
 <p align="center">
   <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/results_yolo11.png" width="450" alt="YOLO11 Sonuç"/>
   <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/confusion_matrix_yolo11.png" width="370" alt="YOLO11 Confusion Matrix"/>
+  
   <img width="1280" height="1280" alt="image" src="https://github.com/user-attachments/assets/4cac18bb-016e-4c76-9f2d-c7e235e586fa" />
 </p>
 
@@ -49,6 +50,9 @@ Genel doğrulukta lider, özellikle maskesiz yüzleri çok güvenilir tespit ede
 <p align="center">
   <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/results_v8.png" width="450" alt="YOLOv8 Sonuç"/>
   <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/confusion_matrix_v8.png" width="370" alt="YOLOv8 Confusion Matrix"/>
+  <img width="1280" height="1280" alt="image" src="https://github.com/user-attachments/assets/1139d31e-f52f-4bbb-9869-6708adeb81de" />
+
+
 </p>
 
 ### 🥉 YOLO10n – En Verimli
@@ -61,6 +65,7 @@ NMS gerektirmeyen yapısıyla en düşük parametre sayısı ve yüksek hız.
 <p align="center">
   <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/results_v10.png" width="450" alt="YOLO10 Sonuç"/>
   <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/confusion_matrix_v10.png" width="370" alt="YOLO10 Confusion Matrix"/>
+  <img width="1280" height="1280" alt="image" src="https://github.com/user-attachments/assets/3f390dff-ae23-4713-b83f-3f5230cda0a7" />
 </p>
 
 <br>
