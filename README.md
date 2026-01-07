@@ -1,5 +1,16 @@
-# 😷 YOLO Generations Benchmark  
+# 😷 YOLO Generations Benchmark 
+
 **Yüz Maskesi Tespiti Karşılaştırması: YOLOv8n • YOLOv10n • YOLO11n**
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&pause=1200&center=true&vCenter=true&width=680&lines=YOLO+Generations+Benchmark;YOLOv8n+•+YOLO10n+•+YOLO11n" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=2F80ED&text=Mask%20Detection%20Performance%20Benchmark&fontColor=ffffff&fontSize=28&section=header" />
+</p
+
+
 
 ## 📖 Proje Özeti
 
@@ -26,7 +37,10 @@ Tüm modeller şu parametrelerle eğitilmiştir:
 
 ## 📊 Detaylı Model Analizleri
 
-### 🥇 YOLO11n – En Yeni Nesil
+<p align="center">
+  <img src="https://img.shields.io/badge/Model-YOLO11n-2F80ED?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Role-Mask_Detection_Specialist-ff69b4?style=for-the-badge">
+</p>
 En güncel mimari sayesinde küçük nesneleri (maske) daha iyi yakalar.
 
 **Sınıf Metrikleri**  
@@ -40,7 +54,12 @@ En güncel mimari sayesinde küçük nesneleri (maske) daha iyi yakalar.
   <img width="1280" height="1280" alt="image" src="https://github.com/user-attachments/assets/4cac18bb-016e-4c76-9f2d-c7e235e586fa" />
 </p>
 
-### 🥈 YOLOv8n – Endüstri Standardı
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Model-YOLOv8n-00c853?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Role-High_Accuracy_Leader-ffd600?style=for-the-badge">
+</p>
 Genel doğrulukta lider, özellikle maskesiz yüzleri çok güvenilir tespit eder.
 
 **Sınıf Metrikleri**  
@@ -55,7 +74,10 @@ Genel doğrulukta lider, özellikle maskesiz yüzleri çok güvenilir tespit ede
 
 </p>
 
-### 🥉 YOLO10n – En Verimli
+<p align="center">
+  <img src="https://img.shields.io/badge/Model-YOLO10n-ff9100?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Role-Edge_%26_Mobile_Friendly-29b6f6?style=for-the-badge">
+</p>
 NMS gerektirmeyen yapısıyla en düşük parametre sayısı ve yüksek hız.
 
 **Sınıf Metrikleri**  
