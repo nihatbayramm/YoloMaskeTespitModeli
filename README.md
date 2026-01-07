@@ -1,14 +1,7 @@
-# 😷 YOLO Generations Benchmark 
-
-**Yüz Maskesi Tespiti Karşılaştırması: YOLOv8n • YOLOv10n • YOLO11n**
-
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&pause=1200&center=true&vCenter=true&width=680&lines=YOLO+Generations+Benchmark;YOLOv8n+•+YOLO10n+•+YOLO11n" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=70&section=header&color=0:0A2540,100:2F80ED&text=%F0%9F%98%B7+YOLO+Generations+Benchmark+-+YOLOv8n+%E2%80%A2+YOLO10n+%E2%80%A2+YOLO11n+%7C+Mask+Detection&fontColor=ffffff&fontSize=18&animation=twinkling" />
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=2F80ED&text=Mask%20Detection%20Performance%20Benchmark&fontColor=ffffff&fontSize=28&section=header" />
-</p
 
 
 
