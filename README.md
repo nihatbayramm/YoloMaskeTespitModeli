@@ -36,8 +36,8 @@ Tüm modeller şu parametrelerle eğitilmiştir:
 <br>
 
 ## 📊 Detaylı Model Analizleri
-
-<p align="center">
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<p align="">
   <img src="https://img.shields.io/badge/Model-YOLO11n-2F80ED?style=for-the-badge">
   <img src="https://img.shields.io/badge/Role-Mask_Detection_Specialist-ff69b4?style=for-the-badge">
 </p>
@@ -47,16 +47,31 @@ En güncel mimari sayesinde küçük nesneleri (maske) daha iyi yakalar.
 - `mask` → Precision: 0.803 | Recall: 0.498 | **mAP50: 0.585**  
 - `no_mask` → Precision: 0.877 | Recall: 0.809 | mAP50: 0.859
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/results_yolo11.png" width="450" alt="YOLO11 Sonuç"/>
-  <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/confusion_matrix_yolo11.png" width="370" alt="YOLO11 Confusion Matrix"/>
-  
-  <img width="1280" height="1280" alt="image" src="https://github.com/user-attachments/assets/4cac18bb-016e-4c76-9f2d-c7e235e586fa" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/results_yolo11.png"
+           width="300" alt="YOLO11 Sonuç"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/confusion_matrix_yolo11.png"
+           width="300" alt="YOLO11 Confusion Matrix"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/4cac18bb-016e-4c76-9f2d-c7e235e586fa"
+           width="300" alt="YOLO11 Samples"/>
+    </td>
+  </tr>
+</table>
 
 
 
-<p align="center">
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<p align="">
   <img src="https://img.shields.io/badge/Model-YOLOv8n-00c853?style=for-the-badge">
   <img src="https://img.shields.io/badge/Role-High_Accuracy_Leader-ffd600?style=for-the-badge">
 </p>
@@ -66,15 +81,28 @@ Genel doğrulukta lider, özellikle maskesiz yüzleri çok güvenilir tespit ede
 - `mask` → Precision: 0.779 | Recall: 0.574 | mAP50: 0.605  
 - `no_mask` → Precision: 0.814 | Recall: 0.806 | **mAP50: 0.840**
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/results_v8.png" width="450" alt="YOLOv8 Sonuç"/>
-  <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/confusion_matrix_v8.png" width="370" alt="YOLOv8 Confusion Matrix"/>
-  <img width="1280" height="1280" alt="image" src="https://github.com/user-attachments/assets/1139d31e-f52f-4bbb-9869-6708adeb81de" />
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/results_v8.png"
+           width="300" alt="YOLOv8 Sonuç"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/confusion_matrix_v8.png"
+           width="300" alt="YOLOv8 Confusion Matrix"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/1139d31e-f52f-4bbb-9869-6708adeb81de"
+           width="300" alt="YOLOv8 Samples"/>
+    </td>
+  </tr>
+</table>
 
 
-</p>
 
-<p align="center">
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<p align="">
   <img src="https://img.shields.io/badge/Model-YOLO10n-ff9100?style=for-the-badge">
   <img src="https://img.shields.io/badge/Role-Edge_%26_Mobile_Friendly-29b6f6?style=for-the-badge">
 </p>
@@ -84,17 +112,33 @@ NMS gerektirmeyen yapısıyla en düşük parametre sayısı ve yüksek hız.
 - `mask` → Precision: 0.622 | Recall: 0.449 | mAP50: 0.488  
 - `no_mask` → Precision: 0.693 | Recall: 0.809 | mAP50: 0.786
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/results_v10.png" width="450" alt="YOLO10 Sonuç"/>
-  <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/confusion_matrix_v10.png" width="370" alt="YOLO10 Confusion Matrix"/>
-  <img width="1280" height="1280" alt="image" src="https://github.com/user-attachments/assets/3f390dff-ae23-4713-b83f-3f5230cda0a7" />
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/results_v10.png"
+           width="300" alt="YOLO10 Sonuç"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nihatbayramm/YoloMaskeTespitModeli/main/confusion_matrix_v10.png"
+           width="300" alt="YOLO10 Confusion Matrix"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/3f390dff-ae23-4713-b83f-3f5230cda0a7"
+           width="300" alt="YOLO10 Samples"/>
+    </td>
+  </tr>
+</table>
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<p align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=2200&pause=900&color=2F80ED&center=false&vCenter=true&width=360&lines=⚙️+Setup+%26+Training" />
 </p>
 
-<br>
-
-## ⚙️ Kurulum ve Kullanım
-
 ### 1️⃣ Gerekli Kütüphaneler
+
 ```
 pip install ultralytics opencv-python
 ```
@@ -124,7 +168,21 @@ results.show()          # Görüntüyü ekranda göster
 # results.save("sonuc.jpg")   # Dosyaya kaydetmek için
 
 ```
+
+
+
+
 ### 🏆 Sonuç Karşılaştırması
+
+<p align="center">
+  <img src="https://github.com/andreasbm/readme/blob/master/assets/lines/fire.png" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Winner-YOLOv8n-%23FFD700?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Best_Mask-YOLO11n-%23FF4081?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Fastest-YOLO10n-%2300B0FF?style=for-the-badge">
+</p>
 
 | Kategori         | Kazanan         | Açıklama |
 |------------------|-----------------|---------|
