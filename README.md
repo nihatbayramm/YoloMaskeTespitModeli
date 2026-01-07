@@ -19,7 +19,9 @@ Tüm modeller şu parametrelerle eğitilmiştir:
 
 <br>
 
-## 🚀 Performans Karşılaştırma Tablosu
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=60&section=header&color=0:0A2540,50:0F4C81,100:2F80ED&text=%F0%9F%9A%80+Performans+Kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma+Tablosu&fontColor=42FFF0&fontSize=18&animation=neon" />
+</p>
 
 | Model       | mAP50   | mAP50-95 | Parametre | GFLOPs | Inference (ms) | Ağırlık Boyutu | mask mAP50 | no_mask mAP50 | Öne Çıkan Özellik                          |
 |-------------|---------|----------|-----------|--------|----------------|----------------|------------|---------------|--------------------------------------------|
